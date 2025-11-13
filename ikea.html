@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>내일을 위한 IDEA, IKEA</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./scss/reset.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="./scss/ikea.min.css" />
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/ikea.js"></script>
+  </head>
+  <body>
+    <!--안다솜 포트폴리오 - 리디자인-->
+    <!--헤더/내비게이션/유틸영역-->
+    <!--header#header>.wrap(>button.hambuger_menu_btn+h1(>a[href="#"]>img)+div.upper_utill_box(>.utill_search_box(>input[type="search"]#utill_search_bar)+ul.utill_icon_box(>li(>a[href="#none"])*4)))-->
+    <header id="header">
+      <div class="wrap">
+        <div class="hambuger_box">
+          <input type="checkbox" name="utill_hambuger" id="utill_hambuger" />
+          <label
+            for="utill_hambuger"
+            class="hambuger_menu_btn fa-solid fa-bars"
+          ></label>
+          <!--hanbuger_menu-->
+          <!--nav#nav>a[href="#none"]{내일을 위한 IDEA, IKEA}+ul.hambuger_tab_box(>li(>span{대메뉴}+ul.hambuger_ab_box>li(>a[href="#none"])*10)*2)+ul.hambuger_lower_menu>li(>a[href="#none"])*8-->
+          <div class="nav_back">
+            <nav id="nav">
+              <label
+                for="utill_hambuger"
+                class="hambuger_close_btn fa-solid fa-xmark"
+              ></label>
+              <a href="#none">내일을 위한 IDEA, IKEA</a>
+              <ul class="hambuger_tab_box">
+                <li>
+                  <input
+                    type="radio"
+                    name="hambuger_tab_input"
+                    id="hambuger_input_1"
+                    checked
+                  />
+                  <label for="hambuger_input_1">제품</label>
+                  <ul class="hambuger_ab_box">
+                    <li><a href="#none">홈스마트</a></li>
+                    <li><a href="#none">가구</a></li>
+                    <li><a href="#none">침대/매트리스</a></li>
+                    <li><a href="#none">수납/정리</a></li>
+                    <li><a href="#none">주방가구/주방용품</a></li>
+                    <li><a href="#none">욕실</a></li>
+                    <li><a href="#none">어린이 IKEA</a></li>
+                    <li><a href="#none">러그/매트</a></li>
+                    <li><a href="#none">홈데코/조명/텍스타일</a></li>
+                    <li><a href="#none">etc</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <input
+                    type="radio"
+                    name="hambuger_tab_input"
+                    id="hambuger_input_2"
+                  />
+                  <label for="hambuger_input_2">쇼룸</label>
+                  <ul class="hambuger_ab_box">
+                    <li><a href="#none">침실</a></li>
+                    <li><a href="#none">거실</a></li>
+                    <li><a href="#none">주방</a></li>
+                    <li><a href="#none">다이닝</a></li>
+                    <li><a href="#none">욕실</a></li>
+                    <li><a href="#none">홈오피스</a></li>
+                    <li><a href="#none">현관</a></li>
+                    <li><a href="#none">어린이 IKEA</a></li>
+                    <li><a href="#none">아웃도어</a></li>
+                    <li><a href="#none">IKEA for Business</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="hambuger_lower_menu">
+                <li><a href="#none">할인 상품</a></li>
+                <li><a href="#none">신제품</a></li>
+                <li><a href="#none">새로운 소식</a></li>
+                <li><a href="#none">매장안내</a></li>
+                <li><a href="#none">IKEA FAMILY</a></li>
+                <li><a href="#none">고객지원</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <h1>
+          <a href="#"
+            ><span>내일을 위한 IDEA, </span
+            ><img src="./img/ikea-logo.svg" alt=""
+          /></a>
+        </h1>
+        <div class="upper_utill_box">
+          <div class="utill_search_box">
+            <input type="search" id="utill_search_bar" />
+            <button
+              class="utill_search_btn fa-solid fa-magnifying-glass"
+            ></button>
+          </div>
+          <ul class="utill_icon_box">
+            <li>
+              <a href="#none" class="xi-user-o">
+                <i class="fa-regular fa-user"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#none" class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#none" class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#none" class="xi-navigation">
+                <i class="fa-solid fa-location-dot"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!--메인배너 영역-->
+    <!--section#main_banner>ul>li(>div.banner_img_box(>a[href="#none"]>img[src="redesign/img/ikea_banner_0$.jpg"])+ul.banner_prod_box>li(>div.prod_list>(a[href="#none"].banner_prod_img>img)+a[href="#none"].banner_prod_name+strong.banner_prod_price)*4)*4-->
+    <section id="main_banner">
+      <ul>
+        <li>
+          <div class="banner_img_box">
+            <a href="#none"><img src="./img/ikea_banner_01.jpg" alt="" /></a>
+          </div>
+          <ul class="banner_prod_box">
+            <li>
+              <div class="prod_list">
+                <div class="img_box">
+                  <a href="#none" class="banner_prod_img">
+                    <img src="./img/ikea_banner_01-1.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="text_box">
+                  <a href="#none" class="banner_prod_name">VIMMERN 빔메른</a>
+                  <strong class="banner_prod_price">￦ 300,000</strong>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="prod_list">
+                <div class="img_box">
+                  <a href="#none" class="banner_prod_img">
+                    <img src="./img/ikea_banner_01-2.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="text_box">
+                  <a href="#none" class="banner_prod_name">BEKVÄM 베크벰</a>
+                  <strong class="banner_prod_price">￦ 15,000</strong>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="prod_list">
+                <div class="img_box">
+                  <a href="#none" class="banner_prod_img">
+                    <img src="./img/ikea_banner_01-3.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="text_box">
+                  <a href="#none" class="banner_prod_name"
+                    >KULLABERG 쿨라베리</a
+                  >
+                  <strong class="banner_prod_price">￦ 59,900</strong>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="prod_list">
+                <div class="img_box">
+                  <a href="#none" class="banner_prod_img">
+                    <img src="./img/ikea_banner_01-4.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="text_box">
+                  <a href="#none" class="banner_prod_name">SÄLJAN 셀리안</a>
+                  <strong class="banner_prod_price">￦ 120,000</strong>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="banner_img_box">
+            <a href="#none"><img src="./img/ikea_banner_02.jpg" alt="" /></a>
+          </div>
+          <ul class="banner_prod_box">
+            <li>
+              <div class="prod_list">
+                <div class="img_box">
+                  <a href="#none" class="banner_prod_img">
+                    <img src="./img/ikea_banner_02-1.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="text_box">
+                  <a href="#none" class="banner_prod_name">METOD 메토드</a>
+                  <strong class="banner_prod_price">￦ 125,000</strong>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="prod_list">
+                <div class="img_box">
+                  <a href="#none" class="banner_prod_img">
+                    <img src="./img/ikea_banner_02-2.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="text_box">
+                  <a href="#none" class="banner_prod_name">NORRÅKER 노로케르</a>
+                  <strong class="banner_prod_price">￦ 199,000</strong>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="prod_list">
+                <div class="img_box">
+                  <a href="#none" class="banner_prod_img">
+                    <img src="./img/ikea_banner_02-3.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="text_box">
+                  <a href="#none" class="banner_prod_name"
+                    >METOD 메토드 / MAXIMERA 막시메라</a
+                  >
+                  <strong class="banner_prod_price">￦ 240,000</strong>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="prod_list">
+                <div class="img_box">
+                  <a href="#none" class="banner_prod_img">
+                    <img src="./img/ikea_banner_02-4.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="text_box">
+                  <a href="#none" class="banner_prod_name">BILLSBRO 빌스브로</a>
+                  <strong class="banner_prod_price">￦ 15,000/ 2 개</strong>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="banner_img_box">
+            <a href="#none"><img src="./img/ikea_banner_03.jpg" alt="" /></a>
+          </div>
+          <ul class="banner_prod_box">
+            <li>
+              <div class="prod_list">
+                <div class="img_box">
+                  <a href="#none" class="banner_prod_img">
+                    <img src="./img/ikea_banner_03-1.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="text_box">
+                  <a href="#none" class="banner_prod_name">HILVER 힐베르</a>
+                  <strong class="banner_prod_price">￦ 200,000</strong>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="prod_list">
+                <div class="img_box">
+                  <a href="#none" class="banner_prod_img">
+                    <img src="./img/ikea_banner_03-2.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="text_box">
+                  <a href="#none" class="banner_prod_name"
+                    >FJÄLLBERGET 피엘베리에트</a
+                  >
+                  <strong class="banner_prod_price">￦ 249,000</strong>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="prod_list">
+                <div class="img_box">
+                  <a href="#none" class="banner_prod_img">
+                    <img src="./img/ikea_banner_03-3.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="text_box">
+                  <a href="#none" class="banner_prod_name">ALEX 알렉스</a>
+                  <strong class="banner_prod_price">￦ 129,000</strong>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="prod_list">
+                <div class="img_box">
+                  <a href="#none" class="banner_prod_img">
+                    <img src="./img/ikea_banner_03-4.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="text_box">
+                  <a href="#none" class="banner_prod_name"
+                    >ULRIKSBERG 울릭스베리</a
+                  >
+                  <strong class="banner_prod_price">￦ 149,000</strong>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="banner_img_box">
+            <a href="#none"><img src="./img/ikea_banner_04.jpg" alt="" /></a>
+          </div>
+          <ul class="banner_prod_box">
+            <li>
+              <div class="prod_list">
+                <div class="img_box">
+                  <a href="#none" class="banner_prod_img">
+                    <img src="./img/ikea_banner_04-1.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="text_box">
+                  <a href="#none" class="banner_prod_name"
+                    >TUFJORD 투피오르드</a
+                  >
+                  <strong class="banner_prod_price">￦ 799,000</strong>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="prod_list">
+                <div class="img_box">
+                  <a href="#none" class="banner_prod_img">
+                    <img src="./img/ikea_banner_04-2.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="text_box">
+                  <a href="#none" class="banner_prod_name">REGOLIT 레골리트</a>
+                  <strong class="banner_prod_price">￦ 5,900</strong>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="prod_list">
+                <div class="img_box">
+                  <a href="#none" class="banner_prod_img">
+                    <img src="./img/ikea_banner_04-3.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="text_box">
+                  <a href="#none" class="banner_prod_name">SETSKOG 셋스코그</a>
+                  <strong class="banner_prod_price">￦ 49,900</strong>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="prod_list">
+                <div class="img_box">
+                  <a href="#none" class="banner_prod_img">
+                    <img src="./img/ikea_banner_04-4.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="text_box">
+                  <a href="#none" class="banner_prod_name">VÅRELD 보렐드</a>
+                  <strong class="banner_prod_price">￦ 49,900</strong>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <span class="prev PN_Btn"></span>
+      <span class="next PN_Btn"></span>
+    </section>
+    <!--신상품 섹션-->
+    <!--.wrap>div#new_prod_list>(div.new_prod_box(>.img_box(>a[href="#none"]>img[src="./img/ikea_new_$$.jpg"])+.text_box(>a[href="#none"]>strong.prod_name+span.prod_price)+div.hover_box>span*3))*16-->
+    <section id="new_prod">
+      <div class="wrap">
+        <h3>IKEA의 새로운 IDEA</h3>
+        <div id="new_prod_list">
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_01.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">RÅSHULT 로스훌트</strong>
+                <span class="prod_price">￦ 24,900</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_02.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">LAMPAN 람판</strong>
+                <span class="prod_price">￦ 5,000</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_03.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">FIESTAD 피에스타드</strong>
+                <span class="prod_price">￦ 1,500</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_04.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">MALINDA 말린다</strong>
+                <span class="prod_price">￦ 5,900</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_05.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">TJOG 쇼그</strong>
+                <span class="prod_price">￦ 4,900</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_06.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">TRÅDFRI 트로드프리</strong>
+                <span class="prod_price">￦ 14,900</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_07.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">CASHEWÄPPLE 카스헤베플레</strong>
+                <span class="prod_price">￦ 3,500</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_08.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">MALLHOPPA 말호파</strong>
+                <span class="prod_price">￦ 24,900</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_09.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">DVALA 드발라</strong>
+                <span class="prod_price">￦ 19,900</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_10.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">BUSKBO 부스크보</strong>
+                <span class="prod_price">￦ 49,900</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_11.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">GODTAGBAR 고드타그바르</strong>
+                <span class="prod_price">￦ 6,900</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_12.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">RAKKESTAD 라케스타드</strong>
+                <span class="prod_price">￦ 179,000</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_13.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">PJÄTTERYD 피에테뤼드</strong>
+                <span class="prod_price">￦ 44,900</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_14.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">KOPPANG 코팡</strong>
+                <span class="prod_price">￦ 179,000</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_15.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name"
+                  >REGNSKUR 렝스쿠르 / SKAFTET 스카프테트</strong
+                >
+                <span class="prod_price">￦ 109,900</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_16.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">BILD 빌드</strong>
+                <span class="prod_price">￦ 6,900/ 2 개</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_17.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">LUSTIGKURRE 루스틱쿠레</strong>
+                <span class="prod_price">￦ 14,900</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_18.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">PLATSA 플랏사</strong>
+                <span class="prod_price">￦ 683,500</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_19.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">BRUSALI 브루살리</strong>
+                <span class="prod_price">￦ 129,000</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_20.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">KVISTBRO 크비스트브로</strong>
+                <span class="prod_price">￦ 29,900</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+          <div class="new_prod_box">
+            <div class="img_box">
+              <a href="#none">
+                <img src="./img/ikea_new_21.jpg" alt="" />
+              </a>
+            </div>
+            <div class="text_box">
+              <a href="#none">
+                <strong class="prod_name">MILSBO 밀스보</strong>
+                <span class="prod_price">￦ 249,000</span>
+              </a>
+            </div>
+            <div class="hover_box">
+              <span class="xi-credit-card">
+                <i class="fa-regular fa-credit-card"></i>
+              </span>
+              <span class="xi-heart-o">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span class="xi-cart-o">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--이미지 섹션-->
+    <!--section#img_section>div.img_sec_left1+div.img_sec_right1+div.img_sec_left2+div.img_sec_right_2+div.img_sec_lower*3-->
+    <section id="img_section">
+      <div class="wrap">
+        <h3>IKEA가 제안하는 IDEA</h3>
+        <div class="img_sec_left1">
+          <a href="#none">
+            <img src="./img/ikea_img_01.jpg" alt="" />
+          </a>
+        </div>
+        <div class="img_sec_right1">
+          <a href="#none">
+            <img src="./img/ikea_img_02.jpg" alt="" />
+          </a>
+        </div>
+        <div class="img_sec_left2">
+          <a href="#none">
+            <img src="./img/ikea_img_03.jpg" alt="" />
+          </a>
+        </div>
+        <div class="img_sec_right_2">
+          <a href="#none">
+            <img src="./img/ikea_img_04.jpg" alt="" />
+          </a>
+        </div>
+        <div class="img_sec_lower">
+          <a href="#none">
+            <img src="./img/ikea_img_05.jpg" alt="" />
+          </a>
+        </div>
+        <div class="img_sec_lower">
+          <a href="#none">
+            <img src="./img/ikea_img_06.jpg" alt="" />
+          </a>
+        </div>
+        <div class="img_sec_lower">
+          <a href="#none">
+            <img src="./img/ikea_img_07.jpg" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--하단영역-->
+    <!--footer#footer>div.footer_upper(>div.footer_ikea_family+ul.footer_menu>li(>span+ul.ab_box>li(>a[href="#none"])*5)*4)+div.footer_lower>.footer_lower_left+.footer_lower_right(>ul.footer_sns_box(>li(>a[href="#none"])*3)+ul.footer_terms_list>li(>a[href="#none"])*3)-->
+    <footer id="footer">
+      <div class="wrap">
+        <div class="footer_upper">
+          <div class="footer_ikea_family">
+            <span>무료로 가입하고 멤버 전용 혜택을 누리세요.</span>
+            <a href="#none">IKEA Family 가입하기</a>
+          </div>
+          <ul class="footer_menu">
+            <li>
+              <span>고객지원</span>
+              <ul class="ab_box">
+                <li><a href="#none">자주 묻는 질문</a></li>
+                <li><a href="#none">배송조회</a></li>
+                <li><a href="#none">교환환불</a></li>
+                <li><a href="#none">품질보증</a></li>
+                <li><a href="#none">구매 가이드</a></li>
+              </ul>
+            </li>
+            <li>
+              <span>쇼핑하기</span>
+              <ul class="ab_box">
+                <li><a href="#none">전화주문</a></li>
+                <li><a href="#none">셀프 플래닝</a></li>
+                <li><a href="#none">카탈로그</a></li>
+                <li><a href="#none">제품 사용팁/가이드</a></li>
+                <li><a href="#none">결제 옵션</a></li>
+              </ul>
+            </li>
+            <li>
+              <span>서비스</span>
+              <ul class="ab_box">
+                <li><a href="#none">배송 서비스</a></li>
+                <li><a href="#none">조립 서비스</a></li>
+                <li><a href="#none">주방 서비스</a></li>
+                <li><a href="#none">인테리어 서비스</a></li>
+                <li><a href="#none">매장 픽업 서비스</a></li>
+              </ul>
+            </li>
+            <li>
+              <span>IKEA 이야기</span>
+              <ul class="ab_box">
+                <li><a href="#none">기업 소개</a></li>
+                <li><a href="#none">데모크래틱 디자인</a></li>
+                <li><a href="#none">지속가능한 생활</a></li>
+                <li><a href="#none">뉴스</a></li>
+                <li><a href="#none">채용정보</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_lower">
+          <div class="footer_lower_left">
+            <p>
+              <span>IKEA 코리아</span>
+              <span>주소:(우)14352 경기도 광명시 일직로 17, IKEA 광명점</span>
+              <span>사업자 등록번호 : 106-86-82871</span>
+              <span>대표자 : 프레드릭 요한손</span>
+              <span>통신판매업 신고 : 2018-경기광명-0209</span>
+              <a href="tel:1670-4532">TEL : 1670-4532</a>
+            </p>
+          </div>
+          <div class="footer_lower_right">
+            <ul class="footer_sns_box">
+              <li>
+                <a href="#none" class="xi-facebook"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#none" class="xi-instagram">
+                  <i class="fa-brands fa-instagram"> </i>
+                </a>
+              </li>
+              <li>
+                <a href="#none" class="xi-youtube-play"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+            <ul class="footer_terms_list">
+              <li><a href="#none">개인정보처리방침</a></li>
+              <li><a href="#none">웹사이트 이용약관</a></li>
+              <li><a href="#none">Responsible disclosure</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
